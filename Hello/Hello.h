@@ -11,7 +11,10 @@
 class Hello {
 public:
 	Hello();
+	int getValue();
 	virtual ~Hello();
+private:
+	int value;
 };
 
 #endif /* HELLO_H_ */

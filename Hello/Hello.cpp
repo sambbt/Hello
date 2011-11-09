@@ -12,6 +12,11 @@ Hello::Hello() {
 
 }
 
+int Hello::getValue()
+{
+	return value;
+}
+
 Hello::~Hello() {
 	// TODO Auto-generated destructor stub
 }
